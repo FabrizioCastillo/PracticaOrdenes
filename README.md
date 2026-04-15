@@ -16,14 +16,6 @@ Se aplican los conceptos pedidos en la consigna:
 - Logica de negocio en backend.
 - Patron Unit of Work.
 
-## Stack
-
-- Python 3.11+
-- FastAPI
-- SQLModel (SQLAlchemy + Pydantic)
-- SQLite
-- Pytest
-
 ## Estructura del proyecto
 
 ```text
@@ -202,14 +194,6 @@ python -m pytest -q
 Estado actual:
 - 2 tests pasando.
 
-## Notas de implementacion
-
-- `models.py`: entidades SQLModel y relaciones con claves foraneas.
-- `schemas.py`: modelos de entrada/salida (Pydantic).
-- `uow.py`: Unit of Work para manejo transaccional de sesion.
-- `main.py`: endpoints y logica de negocio.
-- `database.py`: engine SQLite y creacion de tablas.
 
 ## Autor
-
-Practica resuelta para Programacion IV.
+Fabrizio Castillo
